@@ -1,13 +1,133 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width: 317px;
+  background-color:#1A1B21;
+  border-radius: 10px;
+}
+
+
+/* first section :info */
+
+.profileImg{
+  background-image: url('../public/profile.jpg');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 317px;
+}
+
+.infoContainer > h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 21px;
+}
+
+.infoContainer> h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 7px;
+  color: #F3BF99;
+}
+
+.infoContainer>p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 8px;
+  color: #F5F5F5;
+
+}
+
+.bottons{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 15px;
+
+}
+
+.bottons>div{
+  width: 115px;
+  height: 35px;
+  background-color: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  vertical-align: middle;
+}
+
+.bottons p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.bottons img{
+  height: 15px;
+  width: 15px;
+}
+
+
+.bottons>div:last-child{
+  background-color: #5093E2;
+  color: white;
+}
+
+
+/* second section :about */
+.aboutContainer{
+  margin-top: 33px;
+  padding: 0 35px;
+}
+
+.aboutContainer h1{
+  color: #F5F5F5;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 5px;
+}
+
+.aboutContainer p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  text-align: justify;
 }
