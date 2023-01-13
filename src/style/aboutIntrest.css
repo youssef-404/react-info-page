@@ -1,0 +1,25 @@
+.aboutContainer , .intrestContainer{
+    margin-top: 33px;
+    padding: 0 35px;
+  }
+  
+  .aboutContainer h1 ,.intrestContainer h1{
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5px;
+  }
+  
+  .aboutContainer p ,.intrestContainer p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    text-align: justify;
+  }
+  

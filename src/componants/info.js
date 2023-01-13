@@ -1,5 +1,6 @@
-import email from './email.png'
-import LinkedIn from './linkedin.png'
+import '../style/info.css'
+import email from '../images/email.png'
+import LinkedIn from '../images/linkedin.png'
 
 
 function Info() {

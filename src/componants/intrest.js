@@ -1,3 +1,4 @@
+import '../style/aboutIntrest.css'
 
 function Interest(){
     return(
