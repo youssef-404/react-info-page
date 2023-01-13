@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import About from './about';
 import './index.css';
 import Info from './info';
+import Interest from './intrest';
 
 
 
@@ -11,6 +12,7 @@ root.render(
   <div className='container'>
     <Info/>
     <About/>
+    <Interest/>
   </div>
 );
 

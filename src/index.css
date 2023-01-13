@@ -16,6 +16,8 @@ body{
   width: 317px;
   background-color:#1A1B21;
   border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 
@@ -107,12 +109,12 @@ body{
 
 
 /* second section :about */
-.aboutContainer{
+.aboutContainer , .intrestContainer{
   margin-top: 33px;
   padding: 0 35px;
 }
 
-.aboutContainer h1{
+.aboutContainer h1 ,.intrestContainer h1{
   color: #F5F5F5;
   font-family: 'Inter';
   font-style: normal;
@@ -122,7 +124,7 @@ body{
   margin-bottom: 5px;
 }
 
-.aboutContainer p{
+.aboutContainer p ,.intrestContainer p{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
